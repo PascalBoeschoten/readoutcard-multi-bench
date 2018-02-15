@@ -8,7 +8,7 @@ superpage_size=$1
 sleep_time=$2
 ids_comma_separated=$3
 numanodes_comma_separated=$4
-fixed_opts="--buffer-size=2Gi --no-err --no-display --links=0-31"
+fixed_opts="--buffer-size=2Gi --no-err --no-display --links=3"
 
 ids=(${ids_comma_separated//,/ })
 numanodes=(${numanodes_comma_separated//,/ })
